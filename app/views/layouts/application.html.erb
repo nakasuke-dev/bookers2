@@ -17,9 +17,6 @@
         <%= content_tag(:div, value, class: key) %>
       <% end %>
     <% end %>
-    <% if @book %>
-      <%= render 'layouts/error', model: @book %>
-    <% end %>
     <%= yield %>
     <%= render 'layouts/footer' %>
   </body>
