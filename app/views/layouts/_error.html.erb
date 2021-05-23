@@ -1,5 +1,6 @@
 <% if model.errors.any? %>
   <div id="error_explanation">
+    <h2>error</h2>
     <ul>
       <% model.errors.full_messages.each do |message| %>
         <li><%= message %></li>
