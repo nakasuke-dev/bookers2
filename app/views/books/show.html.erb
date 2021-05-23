@@ -5,7 +5,7 @@
       <%= render 'books/new', book: Book.new %>
     </div>
     <div class="col-md-8 offset-md-1">
-      <%= render 'books/index', books: [@book], h2: 'Book detail' %>
+      <%= render 'books/detail', book: @book %>
     </div>
   </div>
 </div>
